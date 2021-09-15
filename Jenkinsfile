@@ -2,7 +2,7 @@ node {
   stage('Build') {
     echo 'Building ...'
     checkout scm
-    sh 'pwd; ls'
+    sh 'ls non_existent_path'
   }
   stage('Test') {
     echo 'Testing ...'
