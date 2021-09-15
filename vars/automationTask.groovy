@@ -1,6 +1,6 @@
 def call(Closure body) {
   stage('Step 1') {
-    sh 'Running an automation task.'
+    echo 'Running an automation task.'
     body()
   }
 }
