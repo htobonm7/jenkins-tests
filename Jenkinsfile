@@ -1,1 +1,4 @@
-automationTask
+
+node {
+  automationTask
+}
